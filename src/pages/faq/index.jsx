@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { ImageUtils } from "@/utils/imageUtils";
+// import { ImageUtils } from "@/utils/imageUtils";
+// import { Faq_Data } from "@/utils/faqData";
+import { ImageUtils } from "../../utils/imageUtils";
+import { Faq_Data } from "../../utils/faqData";
 // import { Faq_Data } from "@/pages/faq/faqData";
-import { Faq_Data } from "@/utils/faqData";
 
 function Faq() {
   const [activeIndex, setActiveIndex] = useState(null);

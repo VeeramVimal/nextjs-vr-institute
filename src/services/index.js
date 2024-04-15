@@ -1,5 +1,5 @@
 import { collection, addDoc, Timestamp } from "firebase/firestore/lite";
-import { db } from "@/config/fireBase-config/firebase";
+// import { db } from "@/config/fireBase-config/firebase";
 import axios from "axios";
 const sendContactForm = async (payload) => {
 

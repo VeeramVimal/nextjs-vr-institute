@@ -22,7 +22,9 @@
 
 import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
-import Config from "@/Config/index";
+// import Config from "@/Config/index";
+import Config from "../index";
+
 const firebaseConfig = {
     apiKey: Config.FIREBASE_API_KEY,
     authDomain: Config.FIREBASE_AUTH_DOMAIN,

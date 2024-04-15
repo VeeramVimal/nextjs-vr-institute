@@ -2,11 +2,15 @@
 
 import React, { useMemo, useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import getScrollAnimation from "@/utils/getScrollAnimation";
-import ScrollAnimationWrapper from "@/components/layout/ScrollAnimationWrapper";
-import ButtonPrimary from "@/components/misc/ButtonPrimary";
 import Image from "next/image";
-import { ImageUtils } from "@/utils/imageUtils";
+// import getScrollAnimation from "@/utils/getScrollAnimation";
+// import ScrollAnimationWrapper from "@/components/layout/ScrollAnimationWrapper";
+// import ButtonPrimary from "@/components/misc/ButtonPrimary";
+// import { ImageUtils } from "@/utils/imageUtils";
+import getScrollAnimation from "../../utils/getScrollAnimation";
+import ScrollAnimationWrapper from "../../components/layout/ScrollAnimationWrapper";
+import ButtonPrimary from "../../components/misc/ButtonPrimary";
+import { ImageUtils } from "../../utils/imageUtils";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const ListIcons = [

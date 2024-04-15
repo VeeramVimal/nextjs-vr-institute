@@ -2,10 +2,12 @@ import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-import getScrollAnimation from "@/utils/getScrollAnimation";
-import ScrollAnimationWrapper from "@/components/layout/ScrollAnimationWrapper";
-import { ImageUtils } from "@/utils/imageUtils";
-
+// import getScrollAnimation from "@/utils/getScrollAnimation";
+// import ScrollAnimationWrapper from "@/components/layout/ScrollAnimationWrapper";
+// import { ImageUtils } from "@/utils/imageUtils";
+import getScrollAnimation from "../../utils/getScrollAnimation";
+import ScrollAnimationWrapper from "../../components/layout/ScrollAnimationWrapper";
+import { ImageUtils } from "../../utils/imageUtils";
 // const programs = [
 //   "Language Funtamentals.",
 //   "Development Essentials",
