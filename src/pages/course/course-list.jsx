@@ -1,14 +1,18 @@
 "use client";
 
 import React, { useMemo } from "react";
-import { motion } from "framer-motion";
-import { getHiddenAndVisible } from "@/utils/apperance-anime";
-import getScrollAnimation from "@/utils/getScrollAnimation";
-import ScrollAnimationWrapper from "@/components/layout/ScrollAnimationWrapper";
-// import ButtonPrimary from "@/components/misc/ButtonPrimary";
 import Image from "next/image";
-import { IconsUtils } from "@/utils/imageUtils";
-import { courseDetails } from "@/utils/courseDetails";
+import { motion } from "framer-motion";
+// import getScrollAnimation from "@/utils/getScrollAnimation";
+// import ScrollAnimationWrapper from "@/components/layout/ScrollAnimationWrapper";
+// import { IconsUtils } from "@/utils/imageUtils";
+// import { courseDetails } from "@/utils/courseDetails";
+import getScrollAnimation from "../../utils/getScrollAnimation";
+import ScrollAnimationWrapper from "../../components/layout/ScrollAnimationWrapper";
+import { IconsUtils } from "../../utils/imageUtils";
+import { courseDetails } from "../../utils/courseDetails";
+import { getHiddenAndVisible } from "../../utils/apperance-anime";
+// import ButtonPrimary from "@/components/misc/ButtonPrimary";
 // import courseDetails  from "@/pages/course/courseDetails";
 
 export const IconsConstant = [

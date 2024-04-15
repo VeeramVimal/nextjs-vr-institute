@@ -1,4 +1,5 @@
-import { ImageUtils } from "@/utils/imageUtils";
+// import { ImageUtils } from "@/utils/imageUtils";
+import { ImageUtils } from "../../utils/imageUtils";
 import Image from "next/image";
 import React from "react";
 

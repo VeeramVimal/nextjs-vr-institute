@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { CourseWithDetails } from "@/utils/courseDetails";
+// import { CourseWithDetails } from "@/utils/courseDetails";
+import { CourseWithDetails } from "../../utils/courseDetails";
+
 // import CourseWithDetails from "@/pages/cou";
 import Image from "next/image";
 
