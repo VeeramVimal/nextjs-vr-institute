@@ -1,0 +1,16 @@
+/* purgecss start ignore */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        background-color: "#F8F8F8";
+    }
+
+}
+/* purgecss end ignore */
+/* purgecss start ignore */
+/* purgecss end ignore */
